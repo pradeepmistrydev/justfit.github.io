@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background: black;
+    color: white;
+    padding: 30px;
+}
+body {
+    font-family: 'Poppins';font-size: 22px;
+    overflow-x: hidden;
+}
+#menu1{
+    padding-left: 30%;
+}
+#menu1 ul{
+    display: flex;
+    padding-left: 50%;
+}
+#menu1 li{
+    list-style: none;
+    padding-left: 30px;
+    width: 100%;
+}
+
+#menu1 a{
+    text-decoration: none;
+    color: white;
+}
+#menu1 a:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.logo p{
+font-size: 25px;
+}
+
+/* banner */
+.banner1{
+    background: linear-gradient(rgba(19, 19, 24, 0.8), rgba(27, 23, 24, 0.8)), url("Images/bg1.jpg");
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover;
+    position: relative;
+}
+.banner1 h1{
+    color: rgb(252, 164, 0);
+    padding-top: 10%;
+    text-align: center;
+    font-size: 40px;
+}
+.banner1 p{
+    color: white;
+    text-align:center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.banner1 p span{
+    color: rgb(252, 164, 0);
+
+}
+.btn1{
+    color:white;
+    border: 2px double rgb(252, 164, 0);
+    border-radius: 4px;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    background-color:  rgb(252, 164, 0);
+    color:white;
+
+}
+#btrain{
+    height: 50vh;
+    font-size: 80px;
+}
+#btrain h1{
+font-size: 60px;
+color: white;
+}
+/* banner */
+
+
+/* about */
+.about{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+.about p{
+    text-align: center;
+    color:rgb(252, 164, 0);
+}
+
+.about h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+.iconp {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.iconp p{
+    font-weight: 600;
+}
+
+.iconp i{
+    font-size: 40px;
+}
+/* about */
+
+
+/* membership */
+.membership{
+    background: linear-gradient(rgba(19, 19, 24, 0.8), rgba(27, 23, 24, 0.8)), url("https://goldsgym.in/assets/frontend/css/workbaner.jpg");
+    object-fit: cover;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+.membership h1{
+    color: rgb(252, 164, 0);
+    padding-top: 10%;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+}
+
+.membership ul{
+    color:white;
+    padding-top: 30px;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    list-style: none;
+}
+.membership ul li{
+    padding-top: 10px;
+}
+
+.membership ul li:before {
+    content: '✓  ';
+    color: rgb(252, 164, 0);
+    padding: 10px;
+  }
+.membership p{
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.membership p span{
+    color: rgb(252, 164, 0);
+
+}
+.btn1{
+    color:white;
+    border: 2px double rgb(252, 164, 0);
+    border-radius: 4px;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* membership */
+
+
+/* footer */
+.footer1{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    column-count: 3;
+    column-gap: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.footer1 .logo h3{
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+#just{
+    initial-letter: 2;
+    color: white;
+    font-size: 40px;
+
+}
+
+.footer1 p span{
+    font-size: 50px;
+    color:rgb(252, 164, 0); 
+
+}
+.footer1 p{
+    color: white;
+}
+
+.footer1 ul a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.footer1 ul a:hover{
+    border-bottom: 1px solid rgb(252, 164, 0); 
+}
+.footer1 ul{
+    color: white;
+    list-style: none;
+    
+}
+.footer1 ul li{
+padding-top: 10px;
+}
+.footer1 ul a:before{
+    content: '✓  ';
+    color: rgb(252, 164, 0);
+    padding: 5px;
+}
+
+.copyright{
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.copyright a{
+    color: rgb(252, 164, 0);
+    text-decoration: none;
+}
+.copyright a:hover{
+    border-bottom: 1px solid rgb(252, 164, 0);;
+}
+/* footer */
+
+
+/* trainer */
+.trainer{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+.trainer p{
+    text-align: center;
+    color:rgb(252, 164, 0);
+}
+
+.trainer h1{
+    text-align: center;
+    font-weight: 800;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition-delay: 1000;
+    transform: translateY(10px);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      gap: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 40px;
+  }
+
+/* trainer */
+
+
+/* contact */
+.contact{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+.contact p{
+    text-align: center;
+    
+    font-weight: 600;
+}
+
+/* contact */
+
+/* service */
+.services{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+.services p{
+    text-align: center;
+    color:black;
+    padding-top: 30px;
+}
+
+.services h2{
+    text-align: center;
+    font-weight: 800;
+}
+.iconserv {
+    padding-top: 50px;
+    column-count: 3;
+    padding-top: 50px;
+    
+}
+
+.services p img{
+    box-shadow: 3px 3px 5px rgb(252, 164, 0);
+}
+.services p img:hover{
+    transform: translate(20px, -10px);
+    transition-duration: 1000;
+}
+/* service */
+
+
+#formcontact {
+    box-shadow: 1px 1px 3px green;
+    height: 500px;
+    padding: 30px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-top: 35px;
+    background-image: linear-gradient(rgba(19, 19, 24, 0.8), rgba(27, 23, 24, 0.8)), url("https://goldsgym.in/uploads/blog/compress-g2.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100% 100%;
+}
+label{
+    color:white;
+}
+#formcontact div{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+[type="text"]{
+    width: 80%;
+    padding: 10px;
+}
+
+[type="password"]{
+    width: 80%;
+    padding: 10px;
+}
+
+[type="submit"]{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(252, 164, 0);
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+[textarea]{
+    width: 80%;
+    padding: 10px;
+}
+#textarea1{
+    width: 80%;
+    padding: 20px;
+}
+::placeholder{
+    font-size: 15px;
+    color: black;
+}
+#active {
+    color:rgb(252, 164, 0);
+}
+
+/* top scroll btn */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #myBtn i{
+    font-size:35px;
+    color:rgb(252, 164, 0);
+  }
+  .error{
+    color: red;
+    font-size: 15px;
+}
+  /* top scroll btn */
+
+  #bestgym{
+      position: relative;
+  }

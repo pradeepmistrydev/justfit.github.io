@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gym workout, 24hrs, fitness factory, fitness gym, crossfit">
+    <meta name="description"
+        content="JUST FIT is the Best fitness gym which have professional trainer to teach and motivate you to increase your potential in growth.">
+    <title>Just Fit - Gym</title>
+    <link rel="icon" href="Images/dumbbell.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <p>JUST FIT</p>
+        </div>
+        <div id="menu1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trainer.html">Trainers</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- header -->
+
+
+    <!-- Main Background -->
+    <section class="banner1" id="btrain">
+        <h1>CONTACT</h1>
+    </section>
+    <!-- Main Background -->
+
+    <!-- About  -->
+    <section class="contact" id="contact">
+        <p>Contact us to ask any questions, aquire a membership, talk<br> to our trainers or anything else.</p>
+        <form id="formcontact" onsubmit="return validateForm()" action="index.html" validate>
+            <div>
+                <label>Name</label><br><input type="text" placeholder="NAME" id="fname" name="myname"
+                    onblur="validate1()" autocomplete="off">
+                <div id="error1" class="error"></div>
+            </div><br>
+
+            <div>
+                <label>Email</label><br><input type="text" placeholder="EMAIL" id="email" name="email"
+                    onblur="validate2()" autocomplete="off">
+            </div>
+            <div id="error2" class="error"></div><br>
+
+            <div>
+                <label>Message</label><br><textarea placeholder="PLEASE WRITE YOUR MESSAGE" id="textarea1"
+                    minlength="10" maxlength="100" autocomplete="off"></textarea>
+            </div><br>
+
+            <div>
+                <input type="submit" value="SUBMIT" id="submit">
+            </div>
+        </form>
+    </section>
+    <!-- About  -->
+
+
+
+
+    <!-- footer -->
+    <footer class="footer1">
+        <p id="just"><span>J</span>UST FIT</p>
+        <p>
+        <ul>Quick Links
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trainer.html">Trainers</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </p>
+
+
+        <p>
+        <ul> Social Media
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+        </p>
+    </footer>
+    <div class="copyright">
+        <p>Copyright @2021 <a href="">JUSTFIT</a></p>
+    </div>
+    <!-- footer -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
