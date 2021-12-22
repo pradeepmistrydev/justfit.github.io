@@ -2,6 +2,7 @@
 //Get the top scroll button
 var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
@@ -12,6 +13,7 @@ function scrollFunction() {
     }
 }
 
+// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -88,8 +90,13 @@ $(document).ready(function(){
 // booking trainer with jquery
 $(document).ready(function(){
     $('#trainerbook1, #trainerbook2, #trainerbook3').click(function(){
+
+    $(this).css({'transform':'translate(10px,-10px)','transition-duration':'1000'});
+
     alert('Your had successfully booked the trainer.');
+
     });
+
 });
 
 // booking trainer with jquery
