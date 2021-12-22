@@ -2,7 +2,6 @@
 //Get the top scroll button
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
@@ -13,7 +12,6 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -87,4 +85,11 @@ $(document).ready(function(){
     $('#contact p').css('color','rgb(252, 164, 0)');
 });
 
-// Coloring contact paragraph with jquery
+// booking trainer with jquery
+$(document).ready(function(){
+    $('#trainerbook1, #trainerbook2, #trainerbook3').click(function(){
+    alert('Your had successfully booked the trainer.');
+    });
+});
+
+// booking trainer with jquery
